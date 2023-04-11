@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header .Bienvenido-header{
+	display: flex;
+	height: 300px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+body{
+	width: 1080px;
+	height: 1080px;
+	background-image: url(../img/nivel.png);
+}
+.subtirulo{
+	color: #ccc;
+}
+.Bienvenido-header h1{
+	font-size: 50px;
+	color: #000;
+}
+.Bienvenido-header h2{
+	font-size: 10;
+    color: #000 ;
+}
+.banner-img{
+ animation:movimiento 2.5s linear infinite;
+}
+.banner-img{
+	width: 1080px;
+	display: block;
+}
+@keyframes movimiento{
+	0%{
+		transform:translateY(0);
+	}
+	50%{
+		transform:translateY(30px);
+
+	}
+	100%{
+		transform:translateY(0);
+
+	}
+}
